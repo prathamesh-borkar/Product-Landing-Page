@@ -1,0 +1,241 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --text: hsl(228, 12%, 48%);
+    --pale: hsl(32, 37%, 92%);
+    --orange: hsl(34, 97%, 64%);
+    --header: hsl(212, 21% , 14%);
+}
+
+*{
+    margin: 0;
+}
+
+body{
+    background-color: var(--pale);
+}
+#header-img{
+    width: 60px;
+    object-fit: contain;
+}
+
+#nav-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: var(--white);
+    padding: 10px;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    
+}
+.nav-links a {
+    text-decoration: none;
+    color: var(--text);
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.the-product{
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-left: 10px;
+    font-family: "fraunces", serif;
+}
+
+#email-section{
+    margin-top: 100px;
+}
+
+input{
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid var(--orange)
+}
+
+#submit{
+    background-color: var(--orange);
+    color: var(--white);
+    border: none;
+    cursor: pointer;
+}
+
+section::before{
+    display: block;
+    content: " ";
+    margin-top: -100px;
+    height: 100px;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+section{
+    margin: 40px 20px;
+    text-align: center;
+}
+h2{
+    font-family: "fraunces", serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+
+.icon{
+    color: var(--orange);
+    margin-right: 30px;
+}
+
+#features{
+    text-align: left;
+    max-width: 800px;
+    margin: auto;
+}
+
+.feature{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+#video{
+    width: 100%;
+}
+.product-image{
+    width: 100%;
+    margin: auto;
+    height: 500px;
+    border: 1px solid var(--text);
+    border-radius: 10px 10px 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.product1{
+    background-image: url(https://miro.medium.com/v2/resize:fit:1400/format:webp/1*OtxsMJ5huAFwANLR6lONyw.jpeg);
+}
+
+.product2{
+      background-image: url(https://i0.wp.com/www.samuelthomasdavies.com/wp-content/uploads/2017/08/Rich-Dad-Poor-Dad-Summary.png?w=522&ssl=1);
+}
+
+.product3{
+    background-image: url(https://koolskoolbookstore.com/cdn/shop/products/92_c5fcc9bf-faae-48b5-bb73-abce66155dff_740x.jpg?v=1591710491);
+}
+
+.card{
+    background-color: var(--white);
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.inner-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+
+.content{
+    font-family: "faunces", serif;
+    color: (--text);
+    margin-bottom: 10px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+.main-price{
+    margin-right: 20px;
+    font-size: 30px;
+    font-family: "fraunces", serif;
+    color: var(--orange);
+}
+.old-price{
+    text-decoration: line-through;
+    color: var(--text);
+
+}
+.author{
+    font-family: "fraunces", serif;
+    letter-spacing: 5px;
+    color: var(--text);
+    text-transform: uppercase;
+}
+.header{
+    font-family: "fraunces", serif;
+    margin: 10px 0;
+    color: var(--header);
+
+}
+.add{
+    background-color: var(--orange);
+    cursor: pointer;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    color: var(--white);
+    font-family : "fraunces", serif;
+    font-weight: 700;
+    display: flex;
+    margin-bottom: 10px;
+}
+@media only screen and (min-width: 600px){
+    #nav-bar{
+        flex-direction: row;
+
+    }
+}
+
+@media only screen and (450px < width < 600px){
+    .card{
+        font-size: 0.85rem;
+    }
+    .product-image{
+        height: 400px;
+    }
+}
+
+@media only screen and (450px <= width ){
+    .card{
+        display: flex;
+        max-width: 525px;
+    }
+    .inner-card{
+        width: 300px;
+        padding: 20px;
+    }
+    .product-image{
+        width: 400px;
+        border-radius: 10px 0 0 10px;
+    }
+}
+
+@media only screen and(width >= 1000px){
+    #video{
+        width: 70%;
+    }
+    .product-cards{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
