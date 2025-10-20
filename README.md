@@ -38,4 +38,4 @@ Bookly-Landing-Page/
 🌐 Live Demo
 
 👉 GitHub Pages Link
- (https://prathameshborkar.github.io/Product-Landing-Page/)
+ (https://pratham-huh.github.io/Product-Landing-Page/)
