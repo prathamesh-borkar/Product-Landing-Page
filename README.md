@@ -1,11 +1,9 @@
-:
-
-📚 Bookly – Product Landing Page
+## 📚 Bookly – Product Landing Page
 
 A beautiful and responsive product landing page built using only HTML and CSS.
 This landing page is designed for Bookly, an online bookstore concept, showcasing product features, embedded media, and book listings in a modern UI.
 
-🚀 Features
+## 🚀 Features
 
 Responsive navigation bar with smooth layout
 
@@ -21,7 +19,7 @@ Clean typography with Google Fonts (Fraunces, Montserrat)
 
 Pure HTML + CSS only (no JavaScript)
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 HTML5 – structure and semantics
 
@@ -29,13 +27,13 @@ CSS3 – styling, responsiveness, and layout
 
 Remix Icons – for feature icons
 
-📂 Project Structure
+## 📂 Project Structure
 Bookly-Landing-Page/
 │── index.html        # Main HTML file  
 │── styles.css        # Stylesheet  
 │── images/           # (optional) assets if used  
 
-🌐 Live Demo
+## 🌐 Live Demo
 
 👉 GitHub Pages Link
- (https://pratham-huh.github.io/Product-Landing-Page/)
+ (product-landing-page-bookly.netlify.app)
