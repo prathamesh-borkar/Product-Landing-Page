@@ -33,7 +33,6 @@ Bookly-Landing-Page/
 │── styles.css        # Stylesheet  
 │── images/           # (optional) assets if used  
 
-## 🌐 Live Demo
+## 🌐 Live Link
 
-👉 GitHub Pages Link
- (product-landing-page-bookly.netlify.app)
+👉 https://product-landing-page-bookly.netlify.app/
